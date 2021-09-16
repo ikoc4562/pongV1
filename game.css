@@ -1,0 +1,47 @@
+html,body{
+    margin:0;
+    padding-left: 70px;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    background-image: url("tt.jpeg");
+}
+
+
+#deli,#scoreleft{
+    font-size: 60px;
+    color: orangered;
+    z-index: 10;
+}
+#scoreright{
+    font-size: 60px;
+    color: dodgerblue;
+    z-index: 10;
+}
+
+#goal{
+    font-size: 30px;
+    transition: 1.5s all;
+    display: inline-block;
+    text-align: center;
+}
+#score{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+}
+#refresh{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#refresh img{
+    width: 60px;
+}
+
