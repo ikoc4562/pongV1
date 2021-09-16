@@ -6,7 +6,6 @@ html,body{
 body{
     overflow: hidden;
     background-color: black;
-    background-image: url("tt.jpeg");
 }
 
 
@@ -43,5 +42,11 @@ body{
 }
 #refresh img{
     width: 60px;
+}
+#note{
+    color: wheat;
+    text-align: center;
+    margin-left: 550px;
+
 }
 
