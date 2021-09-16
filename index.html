@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ping Pong GaMe</title>
+    <link href="game.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="refresh"><img src="reload.png" onclick="uusiPeli()"></div>
+
+
+<div id="score">
+    <span>1.Player (W-S) --- 2.Player (up-down) </span>
+    <span id="scoreleft">0 </span><span id="deli"> : </span><span id="scoreright"> 0</span>
+    <br>
+    <span id="goal"></span>
+</div>
+<canvas id="canvas" width="1400px" height="700px"></canvas>
+
+
+<script src="oyun.js"></script>
+<script>
+    function uusiPeli(){
+        document.location.reload();
+    }
+</script>
+</body>
+</html>
